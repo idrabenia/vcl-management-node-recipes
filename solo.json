@@ -1,0 +1,13 @@
+{
+    "run_list": [
+//        "recipe[op::default]",
+//        "recipe[op::iptables]",
+       "recipe[op::upload_vcl]",
+        "recipe[op::mysql]"
+//        ,
+//        "recipe[op::httpd]"
+//        "recipe[op::vcld]"
+//        ,
+//        "recipe[op::dhcp]"
+    ]
+}
